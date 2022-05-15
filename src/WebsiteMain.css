@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+#root {
+  background-color: black;
+}
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.bg-black {
+  background-color: black;
+}
+.bg-crimson {
+  background-color: crimson;
+}
+.navbar-brand {
+  color: crimson;
+}
+.nav-link {
+  color: crimson;
+}
+.color-crimson {
+  color: crimson;
+}
+.color-white {
+  color: white;
+}
+.navbar-brand:hover {
+  color: crimson;
+}
+.color-black {
+  color: black;
+}
+.nav-link:hover {
+  color: whitesmoke;
+  transition: 0.3s;
+}
+.nav-link:focus {
+  color: crimson;
+  font-weight: bold;
+  border-bottom: 1px solid crimson;
+}
+.dropdown-item:hover {
+  color: whitesmoke;
+  transition: 0.3s;
+}
+#button-addon2:hover {
+  background-color: crimson;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+.nav-shadow {
+  box-shadow: 0 1px crimson;
+}
+.btn-signin {
+  background-color: crimson;
+  color: white;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.bg-home {
+  background: rgba(0, 0, 0, 0.7);
+}
+.bg-img-home {
+  background-image: url(./Components/Media/Images/wp1945939-movie-posters-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.height {
+  min-height: 90vh;
+  max-height: auto;
+}
+a {
+  text-decoration: none;
+}
+.about-btn {
+  width: 275px;
+  margin-top: 3rem;
+  background-color: crimson;
+  color: black;
+  border: 1px solid white;
+  font-size: large;
+  font-weight: bold;
+}
+.about-btn:hover {
+  background-color: crimson;
+  color: white;
+}
+.about-btn:focus {
+  background-color: crimson;
+  color: white;
+  box-shadow: none;
+}
+.card {
+  background-color: gray;
+  text-align: left;
+}
+video {
+  height: 16rem;
+  width: 18rem;
+}
+.video-div {
+  border: 1px solid crimson;
+  box-shadow: 0 0 1.5rem crimson;
+}
+.border-top-bottom {
+  border-top: 2px solid crimson;
+  border-bottom: 2px solid crimson;
+}
+.bg-footer {
+  background: #303030;
+}
+.w-30 {
+  width: 40%;
+}
+textarea {
+  resize: none;
+}
+.contact-border {
+  border: 1px solid gray;
+  margin: 0.5rem;
+  border-radius: 1rem;
+}
+.b-rad {
+  border-radius: 1rem;
+}
+.form-control {
+  width: 20rem;
+}
+.w-a {
+  width: auto;
+}
+.btn-contact {
+  background-color: crimson;
+  color: white;
+  font-weight: 400;
+  width: 7rem;
+  border-radius: 2rem;
+}
+.border-btm {
+  border-bottom: 2px solid crimson;
+}
+.navbar-rotate {
+  transform: rotate(90deg);
+  line-height: 1.4;
+}
+.height-movie {
+  height: 120vh;
+}
+.cards {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  border: 2px solid white;
+}
+.cards:hover {
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  transform: scale(1.075) !important;
+  z-index: 2;
+  border: 2px solid crimson;
+}
+.pos-rel {
+  position: relative;
+}
+.signin {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+  height: 100vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.signin-inner {
+  position: relative;
+  padding: 4rem;
+  width: 60%;
+  max-width: auto;
+  background-color: crimson;
+}
+.signin-inner .close-btn {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+}
+
+.animate {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
