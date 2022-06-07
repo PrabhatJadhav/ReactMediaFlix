@@ -185,7 +185,6 @@ textarea {
   top: 1.2rem;
   right: 1.2rem;
 }
-
 .animate {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
